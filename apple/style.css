@@ -1,0 +1,512 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+}
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*header///////////////////////////////////////////////////////////////////*/
+#header{
+   display: flex;
+    flex-direction: column;
+
+}
+#headerNav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+#headerNav ul{
+    display: flex;
+    gap: 30px;
+}
+#headerNav ul li a{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 11.81px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D1D1F;
+    opacity: 1;
+}
+#imagesNavHeader{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    top: 8%;
+    background-color: #F5F5F799;
+}
+.navForImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navForImage a p{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 11.81px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D1D1F;
+}
+/*main///////////////////////////////////////////////////////////////////*/
+#mainBlock{
+    position: absolute;
+    z-index: 1;
+    height: 117%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    top: 23%;
+    gap: 34px;
+}
+#mainBlock h1{
+    width: 1037px;
+    height: 79px;
+    top: 565.5px;
+    left: 216px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -1.44px;
+    text-align: center;
+    vertical-align: middle;
+}
+#mainBlock p{
+    width: 975.8px;
+    height: 112px;
+    top: 696.69px;
+    left: 232.19px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 21.56px;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #86868B;
+}
+#mainBlock img{
+    animation: pulseAnim 1.5s ease-in-out infinite;
+}
+@keyframes pulseAnim {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+/*sectionSubscriptions///////////////////////////////////////////////////////////////////*/
+#subscriptions{
+    position: absolute;
+    top: 140%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #F5F5F7;
+    gap: 50px;
+}
+#subscriptions img{
+    width: 578px;
+    height: 380px;
+    top: 342.39px;
+    left: -12px;
+    opacity: 1;
+    object-fit: cover;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.subs_block{
+    margin-top: 50px;
+    width: 578px;
+    height: 720px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+.block1{
+    background-color: black;
+    margin-left: 150px;
+}
+.block2{
+    background-color: white;
+    color: black;
+}
+.block3{
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    margin-top: 0;
+}
+.block4{
+    background-color: white;
+    color: black;
+    margin-top: 0;
+}
+.block4 .info_subs h3{
+    width: 316.5899963378906px;
+    height: 72px;
+    top: 9.5px;
+    opacity: 1;
+}
+.block4 .textSubs1{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 19.52px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+}
+.buttonSubs1{
+    width: 73.19999694824219px;
+    height: 44px;
+    top: 214.39px;
+    left: 230.7px;
+    opacity: 1;
+    border-radius: 980px;
+    background-color: #0071E3;
+    color: white;
+}
+.buttonSubs2{
+    width: 150px;
+    height: 25px;
+    top: -0.5px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16.87px;
+    line-height: 25px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+.info_subs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+.info_subs h3{
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 32.91px;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.textSubs1{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 19.52px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+}
+.textSubs2{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20.34px;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*!*sectionAppleApplication*!/////////////////////////////////////////////////*/
+#productsAppleApplication{
+    position: absolute;
+    top: 353%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    padding-top: 100px;
+    gap: 35px;
+}
+.appProducts{
+    display: flex;
+    gap: 35px;
+}
+.appProduct{
+    width: 380px;
+    height: 480px;
+    opacity: 1;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#productsAppleApplication h2{
+    width: 896.8800048828125px;
+    height: 128px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 58.63px;
+    line-height: 64px;
+    letter-spacing: -0.58px;
+    text-align: center;
+    vertical-align: middle;
+}
+.appProduct h5{
+    width: 265.8399963378906px;
+    height: 84px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 21.56px;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D1D1F;
+    margin-top: 25px;
+}
+.appProduct a{
+    width: 248.0800018310547px;
+    height: 21px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16.87px;
+    line-height: 21px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+.appProduct img{
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+/*sectionAppleProducts/////////////////////////////////////////////////*/
+#productsApple{
+    position: absolute;
+    top: 464%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    padding-top: 100px;
+    gap: 35px;
+}
+#productsApple h2{
+    width: 896.8800048828125px;
+    height: 128px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 58.63px;
+    line-height: 64px;
+    letter-spacing: -0.58px;
+    text-align: center;
+    vertical-align: middle;
+}
+.appProduct1{
+    width: 380px;
+    height: 480px;
+    opacity: 1;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.appProduct1 h5{
+    width: 88.52999877929688px;
+    height: 28px;
+    top: 34px;
+    left: 145.83px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 21.94px;
+    line-height: 28px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.appProduct1 a{
+    width: 248.0800018310547px;
+    height: 21px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16.87px;
+    line-height: 21px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+.appProduct1 p{
+    color: #6E6E73;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 13.89px;
+    line-height: 14px;
+    letter-spacing: -0.22px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.p1{
+    width: 293.9800109863281px;
+    height: 42px;
+    top: 68.5px;
+    left: 43.11px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    color: #6E6E73;
+}
+#productsApple a{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18.54px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+/*/sectionWatching////////////////////////////////////////////////////*/
+#watching{
+    position: absolute;
+    width: 100%;
+    top: 583.8%;
+    background-color: #F5F5F7;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#watching h2{
+    width: 875.1799926757812px;
+    height: 128px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 57.88px;
+    line-height: 64px;
+    letter-spacing: -0.58px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divAppleProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.divAppleProduct{
+    width: 227px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.divAppleProduct p{
+    width: 227px;
+    height: 75px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18.54px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D1D1F;
+}
+.divAppleProduct button{
+    width: 110.38999938964844px;
+    height: 40px;
+    opacity: 1;
+    border-radius: 1000px;
+    background-color: #0071E3;
+    color: #F5F5F7;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 15.94px;
+    line-height: 20px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divAppleProduct a{
+    width: 98.94999694824219px;
+    height: 25px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16.87px;
+    line-height: 25px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+#deliveryAndHelp{
+    width: 100%;
+    height: 40%;
+    background-color: #F5F5F7;
+    position: absolute;
+    top: 726.5%;
+}
