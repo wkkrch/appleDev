@@ -1,24 +1,28 @@
-*{
+* {
     list-style-type: none;
     margin: 0;
     text-decoration: none;
 }
+
 button {
     border: none;
     background: none;
     cursor: pointer;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 /*header///////////////////////////////////////////////////////////////////*/
-#header{
-   display: flex;
+#header {
+    display: flex;
     flex-direction: column;
 
 }
-#headerNav{
+
+#headerNav {
     width: 100%;
     height: 8%;
     display: flex;
@@ -29,11 +33,13 @@ a {
     z-index: 2;
     background-color: white;
 }
-#headerNav ul{
+
+#headerNav ul {
     display: flex;
     gap: 30px;
 }
-#headerNav ul li a{
+
+#headerNav ul li a {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 11.81px;
@@ -44,7 +50,8 @@ a {
     color: #1D1D1F;
     opacity: 1;
 }
-#imagesNavHeader{
+
+#imagesNavHeader {
     position: absolute;
     z-index: 1;
     display: flex;
@@ -56,13 +63,15 @@ a {
     top: 8%;
     background-color: #F5F5F799;
 }
-.navForImage{
+
+.navForImage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.navForImage a p{
+
+.navForImage a p {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 11.81px;
@@ -72,8 +81,9 @@ a {
     vertical-align: middle;
     color: #1D1D1F;
 }
+
 /*main///////////////////////////////////////////////////////////////////*/
-#mainBlock{
+#mainBlock {
     position: absolute;
     z-index: 1;
     height: 117%;
@@ -86,7 +96,8 @@ a {
     top: 23%;
     gap: 34px;
 }
-#mainBlock h1{
+
+#mainBlock h1 {
     width: 1037px;
     height: 79px;
     top: 565.5px;
@@ -100,7 +111,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-#mainBlock p{
+
+#mainBlock p {
     width: 975.8px;
     height: 112px;
     top: 696.69px;
@@ -115,9 +127,11 @@ a {
     vertical-align: middle;
     color: #86868B;
 }
-#mainBlock img{
+
+#mainBlock img {
     animation: pulseAnim 1.5s ease-in-out infinite;
 }
+
 @keyframes pulseAnim {
     0%, 100% {
         transform: scale(1);
@@ -126,8 +140,9 @@ a {
         transform: scale(1.2);
     }
 }
+
 /*sectionSubscriptions///////////////////////////////////////////////////////////////////*/
-#subscriptions{
+#subscriptions {
     position: absolute;
     top: 140%;
     width: 100%;
@@ -137,7 +152,8 @@ a {
     background-color: #F5F5F7;
     gap: 50px;
 }
-#subscriptions img{
+
+#subscriptions img {
     width: 578px;
     height: 380px;
     top: 342.39px;
@@ -147,7 +163,8 @@ a {
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
-.subs_block{
+
+.subs_block {
     margin-top: 50px;
     width: 578px;
     height: 720px;
@@ -157,32 +174,38 @@ a {
     justify-content: space-between;
     border-radius: 18px;
 }
-.block1{
+
+.block1 {
     background-color: black;
     margin-left: 150px;
 }
-.block2{
+
+.block2 {
     background-color: white;
     color: black;
 }
-.block3{
+
+.block3 {
     background-color: white;
     color: black;
     margin-left: 150px;
     margin-top: 0;
 }
-.block4{
+
+.block4 {
     background-color: white;
     color: black;
     margin-top: 0;
 }
-.block4 .info_subs h3{
+
+.block4 .info_subs h3 {
     width: 316.5899963378906px;
     height: 72px;
     top: 9.5px;
     opacity: 1;
 }
-.block4 .textSubs1{
+
+.block4 .textSubs1 {
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 19.52px;
@@ -191,7 +214,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.buttonSubs1{
+
+.buttonSubs1 {
     width: 73.19999694824219px;
     height: 44px;
     top: 214.39px;
@@ -201,7 +225,8 @@ a {
     background-color: #0071E3;
     color: white;
 }
-.buttonSubs2{
+
+.buttonSubs2 {
     width: 150px;
     height: 25px;
     top: -0.5px;
@@ -215,7 +240,8 @@ a {
     vertical-align: middle;
     color: #0071E3;
 }
-.info_subs{
+
+.info_subs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,7 +249,8 @@ a {
     margin-top: 50px;
     gap: 15px;
 }
-.info_subs h3{
+
+.info_subs h3 {
     opacity: 1;
     font-family: Inter, sans-serif;
     font-weight: 700;
@@ -233,7 +260,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.textSubs1{
+
+.textSubs1 {
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 19.52px;
@@ -242,7 +270,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.textSubs2{
+
+.textSubs2 {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 20.34px;
@@ -251,8 +280,9 @@ a {
     text-align: center;
     vertical-align: middle;
 }
+
 /*!*sectionAppleApplication*!/////////////////////////////////////////////////*/
-#productsAppleApplication{
+#productsAppleApplication {
     position: absolute;
     top: 353%;
     display: flex;
@@ -264,11 +294,13 @@ a {
     padding-top: 100px;
     gap: 35px;
 }
-.appProducts{
+
+.appProducts {
     display: flex;
     gap: 35px;
 }
-.appProduct{
+
+.appProduct {
     width: 380px;
     height: 480px;
     opacity: 1;
@@ -279,7 +311,8 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-#productsAppleApplication h2{
+
+#productsAppleApplication h2 {
     width: 896.8800048828125px;
     height: 128px;
     opacity: 1;
@@ -291,7 +324,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.appProduct h5{
+
+.appProduct h5 {
     width: 265.8399963378906px;
     height: 84px;
     opacity: 1;
@@ -305,7 +339,8 @@ a {
     color: #1D1D1F;
     margin-top: 25px;
 }
-.appProduct a{
+
+.appProduct a {
     width: 248.0800018310547px;
     height: 21px;
     opacity: 1;
@@ -318,12 +353,14 @@ a {
     vertical-align: middle;
     color: #0071E3;
 }
-.appProduct img{
+
+.appProduct img {
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
+
 /*sectionAppleProducts/////////////////////////////////////////////////*/
-#productsApple{
+#productsApple {
     position: absolute;
     top: 464%;
     display: flex;
@@ -335,7 +372,10 @@ a {
     padding-top: 100px;
     gap: 35px;
 }
-#productsApple h2{
+.appImg{
+    width: 300px; height: 241px; object-fit: cover;
+}
+#productsApple h2 {
     width: 896.8800048828125px;
     height: 128px;
     opacity: 1;
@@ -347,7 +387,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.appProduct1{
+
+.appProduct1 {
     width: 380px;
     height: 480px;
     opacity: 1;
@@ -358,7 +399,8 @@ a {
     justify-content: space-evenly;
     align-items: center;
 }
-.appProduct1 h5{
+
+.appProduct1 h5 {
     width: 88.52999877929688px;
     height: 28px;
     top: 34px;
@@ -373,7 +415,8 @@ a {
     vertical-align: middle;
 
 }
-.appProduct1 a{
+
+.appProduct1 a {
     width: 248.0800018310547px;
     height: 21px;
     opacity: 1;
@@ -386,7 +429,8 @@ a {
     vertical-align: middle;
     color: #0071E3;
 }
-.appProduct1 p{
+
+.appProduct1 p {
     color: #6E6E73;
     font-family: Inter, sans-serif;
     font-weight: 400;
@@ -397,7 +441,7 @@ a {
     vertical-align: middle;
 }
 
-.p1{
+.p1 {
     width: 293.9800109863281px;
     height: 42px;
     top: 68.5px;
@@ -412,7 +456,8 @@ a {
     vertical-align: middle;
     color: #6E6E73;
 }
-#productsApple a{
+
+#productsApple a {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 18.54px;
@@ -422,8 +467,9 @@ a {
     vertical-align: middle;
     color: #0071E3;
 }
+
 /*/sectionWatching////////////////////////////////////////////////////*/
-#watching{
+#watching {
     position: absolute;
     width: 100%;
     top: 583.8%;
@@ -435,7 +481,8 @@ a {
     align-items: center;
     gap: 50px;
 }
-#watching h2{
+
+#watching h2 {
     width: 875.1799926757812px;
     height: 128px;
     opacity: 1;
@@ -447,13 +494,15 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.divAppleProducts{
+
+.divAppleProducts {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.divAppleProduct{
+
+.divAppleProduct {
     width: 227px;
     height: 175px;
     display: flex;
@@ -462,7 +511,8 @@ a {
     align-items: center;
     gap: 7px;
 }
-.divAppleProduct p{
+
+.divAppleProduct p {
     width: 227px;
     height: 75px;
     opacity: 1;
@@ -475,7 +525,8 @@ a {
     vertical-align: middle;
     color: #1D1D1F;
 }
-.divAppleProduct button{
+
+.divAppleProduct button {
     width: 110.38999938964844px;
     height: 40px;
     opacity: 1;
@@ -490,7 +541,8 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-.divAppleProduct a{
+
+.divAppleProduct a {
     width: 98.94999694824219px;
     height: 25px;
     opacity: 1;
@@ -503,10 +555,432 @@ a {
     vertical-align: middle;
     color: #0071E3;
 }
-#deliveryAndHelp{
+
+/*section DeliveryAndHelp///////////////////////////////////////////////////*/
+#deliveryAndHelp {
     width: 100%;
-    height: 40%;
+    height: 50%;
     background-color: #F5F5F7;
     position: absolute;
     top: 726.5%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.blockForDeliveryAndChat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockForDeliveryAndChat h4 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 16.77px;
+    line-height: 23px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.blockForDeliveryAndChat p {
+    width: 213.64999389648438px;
+    height: 60px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 13.89px;
+    line-height: 20px;
+    letter-spacing: -0.22px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blockForDeliveryAndChat a {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 13.89px;
+    line-height: 20px;
+    letter-spacing: -0.22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #0071E3;
+}
+
+@media (max-width: 1199px) and (min-width: 799px) {
+    #headerNav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+    }
+
+    #headerNav ul {
+        width: 70%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2px;
+    }
+
+    .navForImage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navForImage a p {
+        font-size: 9.5px;
+    }
+
+    .navForImage img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    #mainBlock img {
+        width: 500px;
+        height: 280px;
+        object-fit: cover;
+    }
+
+    #mainBlock h1 {
+        width: 670px;
+        height: 45px;
+        font-size: 66px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #mainBlock p {
+        width: 700px;
+        height: 112px;
+        font-size: 16px;
+    }
+
+    #mainBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #subscriptions {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 25px;
+        height: 1450px;
+    }
+    body{
+        background-color: #F5F5F7;
+    }
+
+    #subscriptions img {
+        width: 350px;
+        height: 280px;
+        left: -12px;
+        opacity: 1;
+        object-fit: cover;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+
+    .subs_block {
+        margin-top: 40px;
+        width: 350px;
+        height: 500px;
+        /*color: white;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 13px;
+    }
+
+    .block1, .block3 {
+        margin-left: 25px;
+    }
+
+    .block3, .block4 {
+        margin-top: -350px;
+    }
+
+    .block4 .info_subs h3 {
+        width: 260px;
+        height: 72px;
+        top: 9.5px;
+        opacity: 1;
+        font-size: 23px;
+    }
+
+    .block4 .textSubs1 {
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: 0.23px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .block3 .info_subs {
+        height: 179px;
+    }
+
+    .info_subs img {
+        margin-top: -40px;
+    }
+
+    .buttonSubs1 {
+        width: 73.19999694824219px;
+        height: 44px;
+        top: 214.39px;
+        left: 230.7px;
+        opacity: 1;
+        border-radius: 980px;
+        background-color: #0071E3;
+        color: white;
+    }
+
+    .buttonSubs2 {
+        width: 150px;
+        height: 25px;
+        top: -0.5px;
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 16.87px;
+        line-height: 25px;
+        letter-spacing: -0.37px;
+        text-align: center;
+        vertical-align: middle;
+        color: #0071E3;
+    }
+
+    .info_subs h3 {
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .textSubs1 {
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        font-size: 19.52px;
+        line-height: 25px;
+        letter-spacing: 0.23px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .textSubs2 {
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 20.34px;
+        line-height: 29px;
+        letter-spacing: 0.23px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /*    */
+
+    .appProducts {
+        display: flex;
+        gap: 35px;
+    }
+
+    .appProduct {
+        width: 240px;
+        height: 270px;
+        opacity: 1;
+        border-radius: 18px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .appProduct img {
+        width: 240px;
+        height: 180px;
+        object-fit: cover;
+    }
+
+#productsAppleApplication{
+    height: 140%;
+    background-color: #F5F5F7;
+    margin-top: -250px;
+}
+    #productsAppleApplication h2 {
+        width: 600px;
+        font-size: 40px;
+        margin-top: -270px;
+    }
+
+    .appProduct h5 {
+        width: 230px;
+        height: 84px;
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 28px;
+        letter-spacing: 0.22px;
+        text-align: center;
+        vertical-align: middle;
+        color: #1D1D1F;
+        margin-top: 0;
+    }
+
+    .appProduct a {
+        width: 230px;
+        height: 21px;
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: -0.37px;
+        text-align: center;
+        vertical-align: middle;
+        color: #0071E3;
+        margin-top: -5px;
+    }
+    /**/
+    #productsApple{
+        margin-top: -300px;
+        height: 158%;
+    }
+    #productsApple h2{
+        width: 600px;
+        font-size: 40px;
+        margin-top: -420px;
+    }
+    #productsApple a{
+        font-size: 15px;
+    }
+    .appProduct1{
+        width: 240px;
+        height: 270px;
+        opacity: 1;
+        border-radius: 18px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .appImg{
+        width: 240px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .appProduct1 h5{
+        font-size: 14px;
+    }
+    .appProduct1 .p1{
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .appProduct1 p{
+        font-size: 5px;
+    }
+    #watching{
+        margin-top: -380px;
+    }
+    #watching h2{
+        width: 600px;
+        font-size: 40px;
+    }
+    #watching video{
+        width: 700px;
+        height: auto;
+    }
+    /**/
+
+    .divAppleProducts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .divAppleProduct {
+        width: 227px;
+        height: 175px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    .divAppleProduct img{
+        width: 150px;
+        height: auto;
+    }
+
+    .divAppleProduct p {
+        width: 157px;
+        height: 75px;
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.23px;
+        text-align: center;
+        vertical-align: middle;
+        color: #1D1D1F;
+    }
+
+    .divAppleProduct button {
+        width: 100px;
+        height: 40px;
+        opacity: 1;
+        border-radius: 1000px;
+        background-color: #0071E3;
+        color: #F5F5F7;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: -0.37px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .divAppleProduct a {
+        width: 98.94999694824219px;
+        height: 25px;
+        opacity: 1;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: -0.37px;
+        text-align: center;
+        vertical-align: middle;
+        color: #0071E3;
+    }
+    #deliveryAndHelp{
+        margin-top: -190px;
+    }
+    }
